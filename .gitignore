@@ -260,7 +260,7 @@ paket-files/
 # Generated javascript
 **/dist/*.js
 **/dist/*.js.map
-**/dist/*.d.ts 
+**/dist/*.d.ts
 
 # SourceDepot Integration
 dirs*
@@ -292,5 +292,22 @@ cscope.po.out
 # Teamwork.com VS extension
 twp.json
 
-# Android 
+# Android
 **/.cxx/*
+
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+### CMake Patch ###
+# External projects
+*-prefix/
